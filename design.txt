@@ -1,0 +1,8 @@
+The program is divided into 3 main part: board, tile, and handle click. 
+
+The board is initialized within board() function. Frames are drew, buttons are attached, up to 8 leaders in history are displayed.
+
+In tile function, the puzzle information (name, number of tiles, size of each tile) is extracted. Tiles of puzzle are shuffled and append to game board.
+
+Handle_click function deals with coordinates that user clicked on screen. If user clicks on reset button, the puzzle tile will be reattached in the original order. If user clicks on load button, it will pop up a window asking user which puzzle they want to play. If user clicks on quit button, the game will be terminated. If user click within tiles region, tile number of blank tile will be found. And all switchable tile numbers around blank tile will also be determined. If user click on any of switchable tiles, the switch will be carried out. After each switch, the function will determine whether the tile order matches with original order and number of moves will add one. If tile order matches, user wins and close game. If tile order never matches and the number of move is equal to number of move requested, user fails and close game.
+

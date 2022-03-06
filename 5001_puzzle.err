@@ -1,0 +1,7 @@
+Thu 12/09/2021 18:21:52 Error: Could not open leaderboard.txt. Location: leader()
+Thu 12/09/2021 18:56:17 Error: Could not open leaderboard.txt. Location: handle_click(), load
+Thu 12/09/2021 18:56:21 Error: Could not open leaderboard.txt. Location: handle_click(), load
+Fri 12/10/2021 15:34:46 Error: Could not open leaderboard.txt. Location: handle_click(), load
+Sat 12/11/2021 13:51:43 Error: Could not open leaderboard.txt. Location: handle_click(), load
+Sat 12/11/2021 13:53:19 Error: Could not open leaderboard.txt. Location: handle_click(), load
+Sat 12/11/2021 14:02:17 Error: Could not open leaderboard.txt. Location: leader()
